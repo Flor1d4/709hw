@@ -26,6 +26,11 @@ public:
 		e = eng;
 		patrol = p;
 	}
+	void Print()
+	{
+		cout << "Engine: " << e << endl;
+		cout << "Patrol: " << patrol << endl;
+	}
 };
 int main()
 {
