@@ -21,5 +21,6 @@ public:
 };
 int main()
 {
-	
+	Point obj2;
+	obj2.Print();
 }
