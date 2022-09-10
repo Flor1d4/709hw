@@ -14,6 +14,10 @@ public:
 		x = a;
 		y = b;
 	}
+	void Print()
+	{
+		cout << x << "\t" << y << endl;
+	}
 };
 int main()
 {
