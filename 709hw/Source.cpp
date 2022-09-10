@@ -5,9 +5,15 @@ class Point
 	int x;
 	int y;
 public:
-	
-	
-
+	Point()
+	{
+		x = y = 2;
+	}
+	Point(int a, int b)
+	{
+		x = a;
+		y = b;
+	}
 };
 int main()
 {
