@@ -31,8 +31,13 @@ public:
 		cout << "Engine: " << e << endl;
 		cout << "Patrol: " << patrol << endl;
 	}
+	void SetEngine(string eng)
+	{
+		e = eng;
+	}
 };
 int main()
 {
-	
+	Car obj1;
+	obj1.SetEngine("N22");
 }
