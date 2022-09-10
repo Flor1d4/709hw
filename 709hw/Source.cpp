@@ -16,7 +16,7 @@ public:
 	}
 	void Print()
 	{
-		cout << x << "\t" << y << endl;
+		cout <<"X"<< x << "\t" <<"Y" << y << endl;
 	}
 };
 int main()
