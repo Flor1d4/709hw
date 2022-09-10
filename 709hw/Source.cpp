@@ -19,7 +19,7 @@ class Car
 {
 private:
 	string e;
-	double patrol;
+	double patrol= 33.6;
 public:
 	void Init(string eng, double p)
 	{
@@ -35,9 +35,16 @@ public:
 	{
 		e = eng;
 	}
+	string GetEngine()
+	{
+		return e;
+	}
 };
 int main()
 {
 	Car obj1;
 	obj1.SetEngine("N22");
+	string eng = obj1.GetEngine();
+	cout << obj1.GetEngine() << endl;
+	obj1.Print();
 }
