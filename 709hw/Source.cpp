@@ -15,6 +15,10 @@ public:
 		y = b;
 	}
 };
+class Car
+{
+
+};
 int main()
 {
 	
