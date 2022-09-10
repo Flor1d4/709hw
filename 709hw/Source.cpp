@@ -21,6 +21,11 @@ private:
 	string e;
 	double patrol;
 public:
+	void Init(string eng, double p)
+	{
+		e = eng;
+		patrol = p;
+	}
 };
 int main()
 {
